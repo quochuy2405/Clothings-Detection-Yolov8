@@ -1,0 +1,13 @@
+train: C:\Users\19521\OneDrive\Desktop\KHOALUAN\clothing_determine\datasets\train\images
+val: C:\Users\19521\OneDrive\Desktop\KHOALUAN\clothing_determine\datasets\val\images
+test: C:\Users\19521\OneDrive\Desktop\KHOALUAN\clothing_determine\full_images
+
+nc: 4
+names: ["Shirt", "clothes", "plaid", "plain"]
+
+roboflow:
+  workspace: pozi-vlunk
+  project: clothes-detection-last
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/pozi-vlunk/clothes-detection-last/dataset/1
